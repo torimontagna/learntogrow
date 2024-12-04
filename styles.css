@@ -19,6 +19,22 @@ nav {
   text-align: center;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
 /* Main Content Area */
 .main-content {
   display: flex;
@@ -30,5 +46,12 @@ nav {
   flex-basis: 30%;
   background-color: #f2f2f2;
   padding: 20px;
-  text-align: center;
+  text-align: left;
+}
+
+/* Footer Images */
+#footer-image {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
 }
