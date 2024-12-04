@@ -1,4 +1,6 @@
- margin: 0;
+/* Global Styles */
+body {
+  margin: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -48,7 +50,7 @@ nav a {
 }
 
 /* Footer Images */
-#footer-image {
+.footer-image {
   width: 30px;
   height: 30px;
   margin: 0 5px;
