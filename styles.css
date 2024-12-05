@@ -2,30 +2,20 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-image: url('background.png'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url('background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-/* Header and Footer */
+/* Header Styles */
 header {
   background-color: #014d01;
   color: #fff;
   padding: 10px;
   text-align: center;
   font-family: "Bookman Old Style", serif;
-  font-size: 32px; 
-}
-
-footer {
-  background-color: #014d01;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 32px;
 }
 
 /* Navigation Menu */
@@ -33,52 +23,7 @@ nav {
   background-color: #014d01;
   padding: 10px;
   text-align: center;
-  font-size: 24px;
-  font-family: "Bookman Old Style", serif;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 10px;
-}
-
-nav li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-nav a:hover {
-  color: #ddd;
-}
-
-.main-content {
-  display: flex;
-  justify-content: space-between; 
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.content {
-  flex-basis: 45%;
-  padding: 20px;
-  text-align: left;
-  box-sizing: border-box;
-}
-
-/* Footer Images */
-.footer-image {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin: 0 5px;
-  text-align: center;
-  border-radius: 50%;
-}
