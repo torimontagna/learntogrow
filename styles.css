@@ -57,26 +57,22 @@ nav a:hover {
   color: #ddd;
 }
 
-/* Main Content Area */
 .main-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Maintains spacing between sections */
   flex-wrap: wrap;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  color: #fff;
 }
 
 .content {
-  flex-basis: 30%;
-  background-color: #014d01;
+  flex-basis: 45%; /* Widen content sections */
+  background-color: #f2f2f2;
   padding: 20px;
-  text-align: center;
-  width: 800px;
-  font-family: "Bookman Old Style", serif;
-  color: #fff;
+  text-align: left;
+  box-sizing: border-box; /* Ensures padding doesn't break the layout */
 }
 
 /* Footer Images */
