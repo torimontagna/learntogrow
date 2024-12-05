@@ -5,8 +5,7 @@ body {
   background-image: url('background.png'); 
   background-size: cover; 
   background-repeat: no-repeat; 
-  background-attachment: fixed; 
-  background-position: center; 
+  background-attachment: fixed;
 }
 
 /* Header and Footer */
@@ -84,4 +83,5 @@ nav a:hover {
   height: 50px;
   margin: 0 5px;
   text-align: center;
+  border-radius: 50%;
 }
