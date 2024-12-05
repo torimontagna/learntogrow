@@ -22,17 +22,25 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 nav li {
-  display: inline;
-  margin-right: 20px;
+  margin: 0;
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-size: 18px;
+  padding: 5px 10px;
+  font-family: "Bookman Old Style", sans-serif;
+}
+
+nav a:hover {
+  color: #ddd;
 }
 
 main {
