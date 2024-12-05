@@ -46,10 +46,9 @@ nav a:hover {
   color: #ddd;
 }
 
-/* Main Content Area */
 main {
   display: flex;
-  flex-wrap: wrap; /* Ensures responsive layout */
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
   flex: 1;
@@ -57,11 +56,12 @@ main {
 
 section {
   flex: 2 1 60%;
-  background-color: #f2f2f2;
+  background-color: ##014d01;
   padding: 20px;
   margin: 10px;
   box-sizing: border-box;
   border-radius: 8px;
+  color: #fff;
   
 aside {
   flex: 1 1 30%;
@@ -72,6 +72,7 @@ aside {
   box-sizing: border-box;
   border-radius: 8px;
   order: 2;
+  color: #fff;
 }
 
 article {
