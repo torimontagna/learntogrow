@@ -1,7 +1,10 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #014d01;
+  font-family: "Bookman Old Style", sans-serif;
+  background-image: url('forest.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
