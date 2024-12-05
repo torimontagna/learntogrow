@@ -67,25 +67,18 @@ section {
   text-align: center;
 }
   
-aside {
-  flex: 1 1 30%;
-  background-color: #014d01;
-  color: #fff;
-  padding: 20px;
-  margin: 10px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  order: 2;
-  color: #fff;
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
 }
 
-aside-image {
-  flex: 2 1 100%;
-  background-color: 014d01
-  padding: 20px;
-  margin: 20px auto;
-  box-sizing: border-box;
+.aside-image {
+  width: 100%;
+  max-width: 250px;
   border-radius: 8px;
+  margin: 0;
 }
   
 footer {
