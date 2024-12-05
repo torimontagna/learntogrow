@@ -62,9 +62,8 @@ section {
   box-sizing: border-box;
   border-radius: 8px;
   color: #fff;
-
-  section h2 {
   text-align: center;
+  font-size: 22px;
 }
   
 .image-container {
