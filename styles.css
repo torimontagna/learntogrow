@@ -25,12 +25,40 @@ nav {
 nav ul {
   list-style-type: none;
 
-aside {
-  flex: 1 1 30%; 
-  background-color: #e0e0e0; 
-  color: #fff; 
+/* Main Content Area */
+main {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsive layout */
+  justify-content: space-between;
+  padding: 20px;
+  flex: 1;
+}
+
+section {
+  flex: 2 1 60%;
+  background-color: #f2f2f2;
   padding: 20px;
   margin: 10px;
   box-sizing: border-box;
-  border-radius: 8px; 
+  border-radius: 8px;
+  
+aside {
+  flex: 1 1 30%;
+  background-color: #e0e0e0;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  order: 2;
+}
+
+article {
+  flex: 2 1 100%;
+  background-color:
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  order: 1;
 }
