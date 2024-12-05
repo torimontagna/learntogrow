@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Bookman Old Style", sans-serif;
   background-image: url('forest.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,6 +64,7 @@ section {
   color: #fff;
   text-align: center;
   font-size: 22px;
+  font-family: "Bookman Old Style", sans-serif;
 }
   
 .image-container {
