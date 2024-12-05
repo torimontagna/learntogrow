@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -8,7 +7,6 @@ body {
   background-attachment: fixed;
 }
 
-/* Header Styles */
 header {
   background-color: #014d01;
   color: #fff;
@@ -18,7 +16,6 @@ header {
   font-size: 32px;
 }
 
-/* Navigation Menu */
 nav {
   background-color: #014d01;
   padding: 10px;
@@ -27,3 +24,13 @@ nav {
 
 nav ul {
   list-style-type: none;
+
+aside {
+  flex: 1 1 30%; 
+  background-color: #e0e0e0; 
+  color: #fff; 
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 8px; 
+}
