@@ -68,21 +68,16 @@ section {
   font-family: "Bookman Old Style";
 }
   
-.image-container {
-  display: flex;
-  justify-contnet: center;
-  gap: 20px;
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
-.image-container img {
-  width: 300px;
-  border-radius: 8px;
-
-aside img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 8px;
-  margin: 0;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
   
 footer {
