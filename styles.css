@@ -70,10 +70,13 @@ section {
   
 .image-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-contnet: center;
   gap: 20px;
 }
+
+.image-container img {
+  width: 300px;
+  border-radius: 8px;
 
 aside img {
   width: 100%;
