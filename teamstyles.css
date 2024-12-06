@@ -76,6 +76,15 @@ p {
   border-radius: 8px;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
 footer {
   background-color: #014d01;
   color: white;
