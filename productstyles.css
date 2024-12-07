@@ -60,6 +60,7 @@ align-items: center;
 main section {
 margin-bottom: 40px;
 width: 100%;
+text-align: center;
 }
 
 main section img {
