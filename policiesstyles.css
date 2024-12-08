@@ -44,7 +44,7 @@ nav a:hover {
 }
 footer {
   background-color: #014d01;
-  color: #fff; /* Fixed typo in color */
+  color: white;
   text-align: center;
   padding: 10px;
 }
