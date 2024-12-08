@@ -5,6 +5,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #fff; /* Added white text color */
+  background-color: #014d01; /* Added dark green background color */
 }
 header {
   background-color: #014d01;
@@ -42,7 +44,7 @@ nav a:hover {
 }
 footer {
   background-color: #014d01;
-  color: fff;
+  color: #fff; /* Fixed typo in color */
   text-align: center;
   padding: 10px;
 }
