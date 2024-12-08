@@ -49,7 +49,6 @@ nav a:hover {
   overflow: hidden;
 }
 main {
-  background-color: #014d01;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
