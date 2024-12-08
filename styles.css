@@ -19,7 +19,6 @@ nav {
   padding: 10px;
   text-align: center;
 }
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -28,23 +27,19 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
 }
-
 nav li {
   margin: 0;
 }
-
 nav a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
   padding: 5px 10px;
-  font-family: "Bookman Old Style";
+  font-family: "Bookman Old Style", serif;
 }
-
 nav a:hover {
   color: #ddd;
 }
-
 main {
   background-color: #014d01;
   display: flex;
