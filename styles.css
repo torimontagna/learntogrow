@@ -18,6 +18,7 @@ nav {
   background-color: #014d01;
   padding: 10px;
   text-align: center;
+  font-size: 28px;
 }
 nav ul {
   list-style-type: none;
@@ -36,7 +37,6 @@ nav a {
   font-size: 18px;
   padding: 5px 10px;
   font-family: "Bookman Old Style", serif;
-  font-size: 28px;
 }
 nav a:hover {
   color: #ddd;
