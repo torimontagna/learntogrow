@@ -17,6 +17,9 @@ header {
   font-family: "Bookman Old Style", serif;
   font-size: 32px;
 }
+main {
+ background-color: #014d01;
+}
 nav {
   background-color: #014d01;
   padding: 10px;
