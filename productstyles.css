@@ -55,6 +55,7 @@ margin: 0 auto;
 display: flex;
 flex-direction: column;
 align-items: center;
+font-size: 28px;
 }
 
 main section {
@@ -62,6 +63,7 @@ background-color: #014d01;
 margin-bottom: 40px;
 width: 100%;
 text-align: center;
+font-size: 28px;
 }
 
 main section img {
