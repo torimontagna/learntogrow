@@ -48,24 +48,39 @@ nav a:hover {
   border-radius: 10px;
   overflow: hidden;
 }
-.column {
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
   flex: 1;
-  padding: 15px;
 }
-.column:first-child {
-  flex: 0 0 40%;
+
+section {
+  flex: 2 1 60%;
+  background-color: #014d01;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Bookman Old Style";
 }
-.column img {
-  width: 100%;
-  object-fit: cover;
+  
+.column {
+  float: center;
+  width: 50%;
+  padding: 5px;
 }
-.column h2 {
-  color: #014d01;
-  margin-bottom: 10px;
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-.column p {
-  text-align: justify;
-  line-height: 1.6;
+  
 }
 footer {
   background-color: #014d01;
