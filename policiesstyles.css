@@ -59,6 +59,7 @@ footer img {
   margin: 0 5px;
   transition: transform 0.3s ease;
   align-items: left;
+  float: left;
 }
 footer img:hover {
   transform: scale(1.1);
