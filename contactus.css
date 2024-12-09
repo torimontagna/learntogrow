@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-size: 28px;
 }
 header {
   background-color: #014d01;
